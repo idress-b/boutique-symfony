@@ -9,17 +9,22 @@ body {
 }
 /**************************carousel ****************/
 
-#slider0{
-    background-image:url('/assets/images/banner0.jpg');
-    background-repeat: no-repeat;
-    height:400px;
-    
-}
 
-#slider1{
-    background-image:url('/assets/images/banner1.jpg');
-    background-repeat: no-repeat;
-    height:400px;
+
+.carousel-caption{
+    color:black;
+    bottom:unset;
+    top:50%;
+    transform:translateY(-50%);
+}
+@media screen and (max-width:850px){
+    .carousel-caption h1{
+       
+        font-size: 1.7rem;
+    }
+    .carousel-caption p{
+       font-size: 0.5rem;
+    }
 }
 
 
