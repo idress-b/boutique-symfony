@@ -7,7 +7,20 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
 }
+/**************************carousel ****************/
 
+#slider0{
+    background-image:url('/assets/images/banner0.jpg');
+    background-repeat: no-repeat;
+    height:400px;
+    
+}
+
+#slider1{
+    background-image:url('/assets/images/banner1.jpg');
+    background-repeat: no-repeat;
+    height:400px;
+}
 
 
 /* Center align the text within the three columns below the carousel */
@@ -37,7 +50,9 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
 }
-
+.featurette div img{
+    width:100%;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
